@@ -1,0 +1,74 @@
+.menu-item {
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    transition: 0.2s ease;
+    background-color: #43b7e58e;
+    color: #ffffff !important;
+    fill: #ffffff;
+    border-radius: 10px;
+}
+
+.menu-item-active {
+    background-color: #43b6e5;
+    color: #ffffff !important;
+    fill: #ffffff !important;
+    border-radius: 10px;
+}
+
+.exit-profile {
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.exit-profile:hover {
+    transition: 0.2s ease;
+    background-color: #e41919;
+    color: #ffffff !important;
+    fill: #ffffff;
+    border-radius: 10px;
+}
+
+.list-group-item {
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    transition: 0.2s ease;
+    background-color: #43b6e5 !important;
+    color: #ffffff !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+@font-face {
+    font-family: "iran";
+    src: local("iran"), url("./assets/fonts/iran.woff") format("woff"),
+        url("./assets/fonts/iran.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "iran-bold";
+    src: local("iran-bold"), url("./assets/fonts/iran_bold.woff") format("woff"),
+        url("./assets/fonts/iran_bold.woff2") format("woff2");
+}
+
+.iran {
+    font-family: iran;
+}
+
+.iran-bold {
+    font-family: iranBold;
+}
+
+.red {
+    background: red;
+}
+
+.white {
+    background-color: #ffffff !important;
+}
